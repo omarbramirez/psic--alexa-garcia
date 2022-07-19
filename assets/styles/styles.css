@@ -1,0 +1,24 @@
+/* BASES */
+@import url(" bases/reset.css");
+@import url(" bases/typography.css");
+@import url(" bases/default.css");
+
+/* VARIABLES */
+@import url(" variables/v-color.css");
+@import url(" variables/v-typography.css");
+@import url(" /v-spacer.css");
+
+/* LAYOUTS */
+@import url(" layouts/header.css");
+@import url(" layouts/footer.css");
+
+/* PAGES */
+@import url("pages/index.css");
+@import url("pages/about-me.css");
+@import url("pages/pricavypolicy.css");
+@import url("pages/contact.css");
+
+/* INTERACTIONS AND TRANSITIONS */
+@import url("bases/interactionstransitions.css");
+
+@import url("https://fonts.googleapis.com/css2?family=Lobster+Two&family=Montserrat:wght@300&display=swap");

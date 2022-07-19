@@ -1,0 +1,102 @@
+div.slider-caption {
+  text-align: center;
+  display: block;
+  margin: 1vw 8vw;
+  overflow: hidden;
+}
+
+img {
+  margin: 0 auto;
+  width: 200px;
+  display: block;
+}
+
+.slider-caption ul {
+  width: 300%;
+  display: flex;
+  animation: transition 27s linear infinite;
+}
+.slider-caption li {
+  text-align: center;
+  width: 100%;
+  list-style: none;
+}
+
+div.whatsapp {
+  visibility: hidden;
+}
+
+@keyframes transition {
+  0% {
+    margin-left: 0;
+  }
+  33% {
+    margin-left: 0;
+  }
+  34% {
+    margin-left: -100%;
+  }
+  66% {
+    margin-left: -100%;
+  }
+  67% {
+    margin-left: -200%;
+  }
+  99% {
+    margin-left: -200%;
+  }
+  0% {
+    opacity: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  31% {
+    opacity: 1;
+  }
+  32% {
+    opacity: 0;
+  }
+  33% {
+    opacity: 0;
+  }
+  34% {
+    opacity: 0;
+  }
+  35% {
+    opacity: 1;
+  }
+  65% {
+    opacity: 1;
+  }
+  66% {
+    opacity: 0;
+  }
+  67% {
+    opacity: 0;
+  }
+  68% {
+    opacity: 0;
+  }
+  69% {
+    opacity: 1;
+  }
+  97% {
+    opacity: 1;
+  }
+  98% {
+    opacity: 0;
+  }
+  99% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  div.whatsapp {
+    visibility: visible;
+  }
+}

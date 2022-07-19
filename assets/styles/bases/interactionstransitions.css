@@ -1,0 +1,14 @@
+/* HEADER */
+
+nav ul li.interaction:hover {
+  background-color: var(--graduation-3);
+}
+
+nav ul li a:hover {
+  color: var(--white-5);
+}
+
+/* FOOTER */
+footer a:hover {
+  color: var(--white-5);
+}

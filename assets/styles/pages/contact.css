@@ -1,0 +1,39 @@
+div.calltoaction {
+  text-align: center;
+}
+
+div.socialmedia {
+  width: 90%;
+  margin: 2vw auto;
+  display: block;
+  text-align: center;
+}
+
+div.socialmedia a {
+  display: inline-block;
+  margin: auto;
+}
+div.form {
+  background-color: var(--primary);
+  width: 80%;
+  padding: 2vw 5vw;
+  margin: 2vw auto;
+  text-align: center;
+}
+
+div.privacypolicy {
+  text-align: center;
+}
+
+input {
+  background-color: var(--primary);
+  border: solid 1px var(--complementary-3);
+  border-top: none;
+  margin: 1vw auto;
+  color: var(--);
+}
+
+::placeholder {
+  color: var(--white-5);
+  text-align: center;
+}

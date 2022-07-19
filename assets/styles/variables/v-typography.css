@@ -1,0 +1,15 @@
+html {
+  /* Familias tipográficas */
+  --font-2: "Lobster Two", cursive;
+  --font-1: "Montserrat", sans-serif;
+
+  /* Variables tipográficas */
+  --text-caption: ;
+  --text-note: clamp(0.75rem, 1vw, 1rem);
+  --text-base: clamp(0.95rem, 1.5vw, 1.25rem);
+  --text-subheader: clamp(1.25rem, 2vw, 1.5rem);
+  --text-tittle: ;
+  --text-headline: ;
+  --text-display: ;
+  --text-jumbo: ;
+}

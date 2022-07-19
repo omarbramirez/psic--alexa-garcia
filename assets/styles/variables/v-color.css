@@ -1,0 +1,28 @@
+html {
+  --primary: #e3653c;
+  /* Colores complementarios*/
+  --complementary-1: #963818;
+  --complementary-2: #ff855c;
+  --complementary-3: #099676;
+  --complementary-4: #3be3bc;
+
+  /* Graduaciones cromáticas primarias*/
+  --graduation-1: #a3492a;
+  --graduation-2: #632c1a;
+  --graduation-3: #f06b3e;
+  --graduation-4: #c95a34;
+
+  /* Graduaciones cromáticas: negro */
+  --black-1: #262626;
+  --black-2: #1d1d1d;
+  --black-3: #151515;
+  --black-4: #0d0d0d;
+  --black-5: #040404;
+
+  /* Graduaciones cromáticas: blanco */
+  --white-1: #fff;
+  --white-2: #fdfdfd;
+  --white-3: #f5f5f5;
+  --white-4: #ededed;
+  --white-5: #e4e4e4;
+}

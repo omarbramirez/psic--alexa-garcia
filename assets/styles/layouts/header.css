@@ -1,0 +1,26 @@
+div.navbar {
+  display: block;
+  padding: 10vh 0 5vh 0;
+}
+
+nav {
+  display: block;
+  flex: 1;
+  text-align: center;
+}
+
+nav ul li {
+  font-family: var(--font-2);
+  list-style: none;
+  display: inline-block;
+  margin: 1vw;
+  border: 1px solid var(--graduation-3);
+  padding: 5px 30px;
+  border-radius: 5px;
+  vertical-align: center;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: var(--black-4);
+}
